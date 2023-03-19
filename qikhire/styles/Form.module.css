@@ -1,0 +1,8 @@
+.input_group{
+    @apply flex border rounded-2xl;
+    position: relative;
+}
+.input_text{
+    @apply w-full py-3 px-6 border rounded-3xl ;
+    @apply focus:outline-none border-black;
+}
