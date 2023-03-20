@@ -6,7 +6,17 @@ module.exports = {
     "./layout/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      flexBasis:{
+        '1/18':'5.56%',
+        '17/18':'94.48%',
+        '3/8':'5%',
+        
+      },
+    borderRadius:{
+      'myrad':'0.9rem',
+    }
+    },
   },
   plugins: [],
 }
