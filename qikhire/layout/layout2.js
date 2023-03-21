@@ -24,7 +24,7 @@ export default function Layout2({children}){
               </div>
             </div>
             
-             <div className=" box-border w-full h-full">
+             <div className="flex w-full h-full flex-row bg-slate-400">
                 {children}
              </div>
           </div>
