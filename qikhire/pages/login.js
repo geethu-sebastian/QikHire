@@ -11,7 +11,7 @@ export default function Login(){
             </Head>
             <section className="w-2/4 mx-auto flex flex-col gap-10">
                 <div className="title">
-                   <h1 className="text-black text-4xl font-bold py-4 ">QikHire</h1>
+                   <h1 className="text-black text-4xl font-medium py-4 ">Login</h1>
                 </div>
                 <form className="flex flex-col gap-5">
                     <div className={styles.input_group}>
