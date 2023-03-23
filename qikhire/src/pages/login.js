@@ -1,5 +1,5 @@
 import Head from "next/head"
-import Layout from "../layout/layout"
+import Layout from "../components/layout"
 import Link from "next/link"
 import styles from "../styles/Form.module.css"
 

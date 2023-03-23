@@ -1,5 +1,5 @@
 import Head from "next/head"
-import Layout from "../layout/layout"
+import Layout from "../../components/layout"
 export default function Register(){
     return(
         <Layout>

@@ -1,4 +1,4 @@
-import Layout2 from "../layout/layout2";
+import Layout2 from "../components/layout2";
 import Image from "next/image";
 export default function Jobsnearyou() {
   return (
@@ -13,7 +13,7 @@ export default function Jobsnearyou() {
           <div className="flex flex-col mx-auto w-1/3 h-full bg-slate-200 rounded-lg ">
             <div className="flex basis-1/5 py-3 place-items-center -mt-10">
               
-              <Image src="profilef.svg" height={80} width={80} className="" />
+              <Image src="../assets/profilef.svg" height={80} width={80} className="" />
               
             </div>
           </div>
