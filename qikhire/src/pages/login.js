@@ -30,7 +30,7 @@ export default function Login(){
                     </div>
                     <div className="input-button py-2 bg-indigo-200 w-[50%] rounded-md">
                         <button type="submit">
-                           Login
+                           <Link href="/jobsearch">Login</Link>
                         </button>
                     </div>
                     <div className="input-button">   
