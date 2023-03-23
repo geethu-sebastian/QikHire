@@ -1,4 +1,4 @@
-import Layout2 from '../../components/layout2'
+import Layout2 from '../components/layout2'
 export default function Workernearyou(){
     return(
         <Layout2>
