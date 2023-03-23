@@ -10,7 +10,7 @@ export default function Layout2({ children }) {
               QikHire
             </h1>
           </div>
-          <div className="flex w-[5%] items-center h-full py-2 px-2">
+          <div className="flex w-[30%] md:w-[10%] lg:[5%] items center justify-center h-full py-2">
             <Image src="profilef.svg" height={50} width={50} className="" />
           </div>
         </div>
@@ -24,7 +24,7 @@ export default function Layout2({ children }) {
             <h1 className="font-medium md:text-lg lg:text-xl">Plumbers near you</h1>
           </div>
         </div>
-        <div className="flex w-full h-full bg-slate-400">{children}</div>
+        <div className="flex w-full h-full bg-slate-400 justify-center px-2 py-2">{children}</div>
       </div>
     </div>
   );

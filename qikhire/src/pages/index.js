@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import Layout from "../components/layout";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -36,7 +37,7 @@ export default function Home() {
                 type="submit"
                 className="border border-black rounded-full p-2 w-full h-[60px]"
               >
-                Find Jobs
+               <Link href="/login">Find Jobs</Link>
               </button>
             </div>
           </form>
