@@ -17,6 +17,17 @@ module.exports = {
     }
     },
   },
+  theme:{
+    backgroundColor: theme =>({
+      ...theme('colors'),
+      'black' : '#2D2D2D',
+      'white' : '#ffffff',
+      'blue':'#BFBDF4',
+      'pink': '#FED0AB',
+      'grey' : '#D9D9D9',    
+      
+    })
+  },
   plugins: [
     require('tailwind-scrollbar-hide')],
 }
