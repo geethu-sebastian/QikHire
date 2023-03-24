@@ -46,7 +46,7 @@ export default function Register() {
               className={styles.input_text}
             />
           </div>
-          <div className="input-button py-2 bg-indigo-200 w-[50%] rounded-md">
+          <div className="input-button py-2 bg-blue w-[50%] rounded-md">
             <button type="submit">Register</button>
           </div>
           

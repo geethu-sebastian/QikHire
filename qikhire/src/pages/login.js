@@ -2,6 +2,7 @@ import Head from "next/head"
 import Layout from "../components/layout"
 import Link from "next/link"
 import styles from "../styles/Form.module.css"
+import Image from "next/image"
 
 export default function Login(){
     return(
@@ -28,15 +29,22 @@ export default function Login(){
                          className={styles.input_text}
                         />
                     </div>
-                    <div className="input-button py-2 bg-indigo-200 w-[50%] rounded-md">
+                    <div className="input-button py-2 bg-blue w-[50%] rounded-md text-bold">
                         <button type="submit">
-                           <Link href="/jobsearch">Login</Link>
+                           <Link href="/jobsearch"><p className="font-semibold">Login</p></Link>
                         </button>
                     </div>
-                    <div className="input-button">   
-                        <button type="submit">
-                           Sign In with Google
-                        </button>
+                    <div className="flex w-[70%] h-[50%] bg-slate-400">   
+                        
+                          <div className="flex flex-row w-full h-full bg-red-400 ">
+                            <div className="flex w-full h-full justify-center items center bg-green-200">
+                               <Image src="google.svg" height={15} width={15}/>
+                            </div>
+                            <div className="flex w-full h-full text-center bg-blue">
+                               <p>Sign In with Google</p>
+                            </div>
+                            </div> 
+                        
                     </div>
                     
                 </form>
