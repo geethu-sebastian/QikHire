@@ -26,7 +26,7 @@ export default function Layout2({ children }) {
             </h1>
           </div>
           <div className="flex w-[30%] md:w-[10%] lg:[5%] items center justify-center h-full py-2">
-            <Image src="profilef.svg" height={50} width={50} className="" />
+            <Image src="/profilef.svg" height={50} width={50} className="" />
           </div>
         </div>
         <div className="flex h-[10%] bg-white w-full px-6 py-2">
