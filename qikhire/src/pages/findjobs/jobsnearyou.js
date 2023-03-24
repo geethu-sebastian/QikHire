@@ -1,5 +1,5 @@
-import Layout2 from "../components/layout2";
-import Textworker from "../components/textworker";
+import Layout2 from "../../components/layout2";
+import Textworker from "../../components/textworker";
 import Image from "next/image";
 export default function Jobsnearyou() {
   return (
@@ -8,7 +8,7 @@ export default function Jobsnearyou() {
       <div className="flex justify-center place-items-center w-full h-full">
         <div className="flex flex-col w-[70%] md:w-[33%] h-[93%] bg-slate-200 gap-4 rounded-md">
           <div className="flex -my-8 h-[20%] w-full justify-center z-10">
-            <Image src="profilef.svg" height={80} width={80} className="" />
+            <Image src="/profilef.svg" height={80} width={80} className="" />
           </div>
 
           <div className="flex flex-col h-full w-full mt-10 gap-4 rounded-md">

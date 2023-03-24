@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Layout from "../components/layout";
-import styles from "../styles/Form.module.css"
+import Layout from "../../components/layout";
+import styles from "../../styles/Form.module.css"
 import Link from "next/link";
 
 export default function Register() {

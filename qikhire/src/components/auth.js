@@ -1,16 +1,19 @@
-import Head from "next/head";
-import Layout from "../components/layout";
-import Link from "next/link";
-import styles from "../styles/Form.module.css";
-import Image from "next/image";
+import {auth} from '../firebase/firebase-config'
+import { createUserWithEmailAndPassword } from 'firebase/auth'
+import { useState } from 'react'
+import styles from '../styles/Form.module.css'
+import Link from 'next/link'
+import Image from 'next/image'
 
-export default function Login() {
-  return (
-    <Layout>
-      <Head>
-        <title>Login</title>
-      </Head>
-      <section className="w-2/4 mx-auto flex flex-col gap-5 items-center">
+
+export const Auth=()=>{
+    const [email,setEmail]=useState("")
+    const [password,setPassword]=useState("")
+    const signIn=async()=>{
+       await createUserWithEmailAndPassword(auth,email,password)
+    }
+    return(
+        <section className="w-2/4 mx-auto flex flex-col gap-5 items-center">
         <div className="title">
           <h1 className="text-black text-4xl font-medium py-4 ">Login</h1>
         </div>
@@ -21,6 +24,7 @@ export default function Login() {
               name="email"
               placeholder="Email"
               className={styles.input_text}
+              onChange={(e)=>setEmail(e.target.value)}
             />
           </div>
           <div className={styles.input_group}>
@@ -29,13 +33,14 @@ export default function Login() {
               name="password"
               placeholder="password"
               className={styles.input_text}
+              onChange={(e)=>setPassword(e.target.value)}
             />
           </div>
           <div className="py-2 bg-blue w-[50%] rounded-md text-bold">
-            <button type="submit">
-              <Link href="/jobsearch">
+            <button type="submit" onClick={signIn}>
+              
                 <p className="font-semibold">Login</p>
-              </Link>
+              
             </button>
           </div>
           <div className="flex flex-row w-[90%] md:w-[70%] h-full justify-center items-center">
@@ -54,6 +59,5 @@ export default function Login() {
           </Link>
         </p>
       </section>
-    </Layout>
-  );
+    )
 }
