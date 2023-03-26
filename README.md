@@ -12,17 +12,11 @@ NextJS, TailwindCSS, Firebase
 
 <h3>User view</h3>
 
- | ![Landing page](/uiimages/landingpage.svg) | ![Login page](/uiimages/login.svg) |
-
- | ![map page](/uiimages/map.svg) | ![worker page](/uiimages/worker.svg) |
-
- | ![favorites page](/uiimages/favorites.svg) | ![history2 page](/uiimages/last.svg)
+ 
 
  <h3>Worker view</h3>
 
- | ![map2 page](/uiimages/map2.svg) | ![profile page](/uiimages/profile.svg) |
-
- | ![history page](/uiimages/history.svg) | ![worker page](/uiimages/workerchat.svg) |
+ 
 
 
 
