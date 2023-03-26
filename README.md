@@ -11,12 +11,36 @@ NextJS, TailwindCSS, Firebase
 <h2>Project UI</h2>
 
 <h3>User view</h3>
-
- 
+<table>
+  <tr>
+     <td><img src="uiimages/landingpage.svg" width=50 height=50></td>
+     <td><img src="uiimages/login.svg" width=50 height=50></td>
+  </tr>
+  <tr>
+     <td><img src="uiimages/map.svg" width=50 height=50></td>
+     <td><img src="uiimages/worker.svg" width=50 height=50></td>
+    
+  </tr>
+  <tr>
+     <td><img src="uiimages/favorites.svg" width=50 height=50></td>
+     <td><img src="uiimages/last.svg" width=50 height=50></td>
+  </tr>
+ </table>
 
  <h3>Worker view</h3>
+ <table>
+  <tr>
+     <td><img src="uiimages/map2.svg" width=50 height=50></td>
+     <td><img src="uiimages/profile.svg" width=50 height=50></td>
+  </tr>
+  <tr>
+     <td><img src="uiimages/history.svg" width=50 height=50></td>
+     <td><img src="uiimages/workerchat.svg" width=50 height=50></td>
+    
+  </tr>
+ </table>
 
- 
+
 
 
 
