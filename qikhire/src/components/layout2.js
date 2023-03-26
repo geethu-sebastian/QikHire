@@ -8,13 +8,13 @@ export default function Layout2({ children }) {
       <div className="hidden md:flex w-[5%] rounded-r-2xl h-full bg-black py-10">
         <div className="flex flex-col h-full md:w-full justify-around items center py-12 px-2">
         <div>
-        <Image src="Vector (Stroke).svg" height={10} width={10} className="w-[70%] h-[70%]" />
+        <Image src="/home.svg" height={10} width={10} className="w-[70%] h-[70%]" />
         </div>
         <div>
-        <Image src="Vector.svg" height={10} width={10} className="w-[70%] h-[70%]" />
+        <Image src="/heart.svg" height={10} width={10} className="w-[70%] h-[70%]" />
         </div>
         <div>
-        <Image src="Vector2.svg" height={10} width={10} className="w-[70%] h-[70%]" />
+        <Image src="/chat.svg" height={10} width={10} className="w-[70%] h-[70%]" />
         </div>
         </div>
       </div>
